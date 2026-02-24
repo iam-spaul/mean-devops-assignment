@@ -12,6 +12,8 @@ services:
     build: ./backend
     container_name: backend
     restart: always
+    ports:
+      - "8080:8080"
     environment:
       - MONGO_URL=mongodb://mongo:27017/dd_db
     depends_on:
