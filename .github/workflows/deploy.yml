@@ -37,6 +37,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd mean-devops-assignment
+            git pull origin main
             docker compose pull
             docker compose down
             docker compose up -d
