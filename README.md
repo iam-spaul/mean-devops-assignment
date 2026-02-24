@@ -152,7 +152,7 @@ server {
 ## 1️ Clone Repository
 
 ```
-git clone <your-repository-url>
+git clone https://github.com/iam-spaul/mean-devops-assignment.git
 cd mean-devops-assignment
 ```
 
@@ -179,7 +179,7 @@ http://localhost
 ## 1 Launch EC2 Instance
 
 * OS: Ubuntu 22.04
-* Instance type: t2.micro / t3.small
+* Instance type: t3.small
 * Security Group:
 
   * Port 22 (SSH)
@@ -201,7 +201,7 @@ sudo systemctl enable docker
 ## 3️ Deploy Application
 
 ```
-git clone <your-repository-url>
+git clone https://github.com/iam-spaul/mean-devops-assignment.git
 cd mean-devops-assignment
 docker compose pull
 docker compose up -d
@@ -277,7 +277,7 @@ Workflow file location:
 
 # Screenshots Section
 
-(Add actual screenshots in your repository)
+will upload soon
 
 ---
 
