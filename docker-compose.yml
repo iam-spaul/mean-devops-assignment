@@ -9,7 +9,7 @@ services:
       - mongo_data:/data/db
 
   backend:
-    build: ./backend
+    image: subhankarpaul/backend:latest
     container_name: backend
     restart: always
     ports:
@@ -20,7 +20,7 @@ services:
       - mongo
 
   frontend:
-    build: ./frontend
+    image: subhankarpaul/frontend:latest
     container_name: frontend
     restart: always
     depends_on:
